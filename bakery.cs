@@ -7,9 +7,10 @@ namespace Bakery
         private int _loaves;
         private int _price;
 
-        public int GetBreadPrice()
+        public Bread(int loaves, int price)
         {
-
+            _loaves = loaves;
+            _price = price;
         }
         
     }
@@ -18,11 +19,14 @@ namespace Bakery
         private int _pastries;
         private int _price;
 
-        public int GetPastryPrice()
+        public Pastry(int pastries, int price)
         {
-            
+            _pastries = pastries;
+            _price = price;
         }
     }
+
+    // public int GetPrice()
 
 
 
