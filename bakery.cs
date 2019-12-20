@@ -4,8 +4,8 @@ namespace Bakery
 {
     class Bread
     {
-        private int _loaves;
-        private int _price;
+        private int _loaves { get; set; }
+        private int _price { get; set; }
 
         public Bread(int loaves, int price)
         {
